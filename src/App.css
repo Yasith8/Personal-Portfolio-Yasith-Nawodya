@@ -10,3 +10,15 @@
     backdrop-filter: blur(10px);
     box-shadow: 0 0 20px rgba(240, 240, 240, 0.068);
 }
+
+.cursor {
+    background-color: #4f00f9;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 1;
+}
