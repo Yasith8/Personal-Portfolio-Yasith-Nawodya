@@ -1,0 +1,12 @@
+.div-x-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.glass-container {
+    background: rgba(255, 255, 255, 0.403);
+    color: #ffffffa1;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px rgba(240, 240, 240, 0.068);
+}
