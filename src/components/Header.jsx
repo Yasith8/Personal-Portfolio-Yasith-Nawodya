@@ -4,7 +4,7 @@ import '../App.css'
 
 function Header() {
   return (
-    <motion.div className='fixed glass-container top-6 left-1/2 flex gap-5 py-2 px-5 rounded-full'
+    <motion.div className='fixed glass-container top-6 left-1/2 flex gap-5 py-2 px-5 rounded-full z-20'
     initial={{opacity:0, y:-100, x:'-50%'}}
     animate={{opacity:1,y:0}}
     transition={{delay:0.5}}
