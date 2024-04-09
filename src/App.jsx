@@ -4,6 +4,7 @@ import Header from './components/Header'
 import About from './components/About'
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
+import Projects from './components/Projects';
 
 function App() {
 
@@ -49,6 +50,7 @@ function App() {
     <Header/>
     <MainPage/>
     <About/>
+    <Projects/>
    </div>
   )
 }

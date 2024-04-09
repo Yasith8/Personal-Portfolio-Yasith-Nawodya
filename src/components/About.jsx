@@ -6,14 +6,11 @@ function About() {
     const ref=useRef(null)
     const { scrollYProgress } = useViewportScroll();
 
-
-    
-
    
     return (
         <motion.section id='about' className='max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28'
         ref={ref}
-        style={{  y: scrollYProgress * 100 , opacity: scrollYProgress }}
+        style={{  y: scrollYProgress * 200 , opacity: scrollYProgress }}
         >
             <h2 className='text-3xl text-white font-bold text-center mb-9'>About me</h2>
             <motion.p className='text-white mb-3 px-10'
